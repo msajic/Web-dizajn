@@ -1,0 +1,436 @@
+
+nav .navbar-nav li {
+	padding-left: 10px;
+}
+
+body{
+  background-color: #CFC0BE;
+  overflow-x: hidden;
+}
+#brand-img
+{
+	height: 80px;
+
+}
+.navbar
+{
+	background-color: black ;
+}
+
+.active{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.dropdown-menu .active{
+	background-color: rgba(255,255,255,0.3);
+}
+
+.navbar .nav-item a {
+	font-weight: bolder;
+	font-size: 1.3vw;
+	color: white ;
+	text-align: right ;
+}
+
+
+.navbar .dropdown-menu{
+	background-color: black ;
+}
+
+.navbar .nav-item a:hover {
+	background-color: white  ;
+	color: black  ;
+	transition: 0.8s ease;
+}
+
+.navbar .nav-item a.active{
+	background-color: white  ;
+	color: black  ;
+
+} 
+.navbar .dropdown-menu a:hover{
+	background-color: white  ;
+	color: black  ;
+	transition: 0.8s ease;
+}
+
+.logo .navbar-brand{
+	padding-left: 1.5em  ;
+}
+
+#baner{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/pozadina.jpg);
+	height: 100vh;
+	background-size: cover;
+  background-position: center;
+  padding-top: 25%;
+  padding-right: 80px;
+  padding-left: 80px;
+  
+}
+
+#baner .title{
+  vertical-align: middle !important;
+}
+/*Tekst na pocetnoj slici*/
+
+
+.title h1{
+	color: white;
+	font-size: 80px;
+	font-weight: bolder;
+}
+
+
+/*Drustvene mreze pocetna strana */
+.dr-mr li{
+	display: inline-block;
+	transform: translate(-30%,-40%);
+}
+
+.dr-mr li a{
+	text-decoration: none;
+	color: white;
+	font-size: 3em;
+}
+
+/*Pozadina kontakta*/
+.pozadina{
+	background:rgba(33,33,33,0.8);
+	color: white;
+	font-style: italic;
+	font-size: 1em;
+
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	font-size: 80%;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+
+footer .col-3 a{
+	color: rgb(75, 73, 73);
+	font-size: 280%;
+	display: inline-block;
+	padding-top: 20px;
+
+}
+
+
+/*Indeks strana*/
+.tekst{
+	
+	text-align: center;
+	font-size: 17px
+}
+
+.tekst .col-6{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+}
+
+
+
+
+
+.baner2{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/biblioteka.jpg);
+	height: 100vh;
+	background-size: cover;
+  background-position: center;
+  padding-top: 10%;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+
+
+
+#fixed{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+}
+.footer-master{
+  position: absolute;
+  bottom: 0;
+  background:#157260;
+  color: white;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+
+#linkovi a{
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#linkovi a:hover{
+	color:grey;
+}
+
+.dropdown-item{
+	text-align:  left !important;
+}
+
+h2{
+	text-align: center;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #514C5F;
+  text-align: left;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  text-align: left;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.mybtn{
+	padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #514C5F;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.myBtn:hover {background-color: #3e8e41}
+
+.ispod{
+	color: grey;
+	text-align: center;
+	font-style: bold;
+}
+
+.jumbotron{
+
+	background-color: #DAB27D ;
+	
+	
+}
+
+.lead {
+	height: 10rem;
+}
+ /*Naslov*/
+.display-4{
+	height: 15rem;
+}
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  ul{
+    font-size: 0.6rem;
+    margin: 5px 5px;
+  }
+  ul li a{
+      padding:5px 7px;
+      margin:0px;
+  }
+  .pocetna p {
+      font-size: 2rem;
+     
+  }
+  .pocetna a {
+      font-size: 0.5rem;
+      padding: 10px 20px;
+  }
+
+  .navbar navbar-expand-lg{
+  	padding: 5px 7px;
+  	margin: 0px;
+  }
+  #brand-img{
+  	size: 5px;
+  }
+
+  #baner .title h1{
+
+    font-size: 50px !important;
+
+  }
+
+  .baner2 .title h1{
+
+    font-size: 50px;
+
+  }
+
+  .baner2 .title h2{
+
+    font-size: 20px !important;
+  }
+
+
+
+  .collapse navbar-collapse{
+  	padding: 5px 7px;
+  	margin: 0px;
+
+  }
+
+  .title{
+    color: white;
+    
+  }
+
+  
+
+  .inter.deo  {
+  	font-size: 0.8rem;
+  }
+
+  .biografija .naslov p{
+  	font-size: 1.2rem;
+  }
+  .galerija .naslov p{
+  	font-size: 1.2rem;
+  }
+  .galerija .slika p{
+	font-size: 0.4rem;
+  }
+  .ples .naslov p{
+  	font-size: 1.2rem;
+  }
+  .container .deo  {
+  	font-size: 0.5rem;
+  }
+
+  .biografija .okvir .tekst {
+  	font-size: 0.5rem;
+  }
+
+  .kontakt .naslov p{
+  	font-size: 1.2rem;
+  }
+  
+  #futer{
+  	font-size: 50%;
+  }
+
+  #futer a{
+  	margin-right: 5px;
+  	margin-left: 5px;
+  }
+
+  .kontakt .container{
+  	padding: 10px 40px 10px 10px;
+  	margin-left: 10%;
+  }
+
+  .kontakt .container .forma {
+  	width: 100%
+  }
+
+  .container .forma h1{
+  	font-size: 1rem;
+  }
+
+  .container .forma form button{
+  	font-size: 1rem;
+  }
+
+  label {
+  	font-size: 1rem;
+  }
+
+  input {
+  	width: 50px;
+  }
+
+  .interes{
+	width: 87%;
+  display: flex;
+  flex-direction: row;
+  }
+}
+
+.progress{
+  margin-top: 10%;
+
+}
+ 
